@@ -1,6 +1,6 @@
 var expect = require('chai').expect
   , fn = require('./')
-  , is = require('is')
+  , is = require('utilise.is')
 
 describe('fn', function() {
   it('should convert arg to fn, if not already', function() {

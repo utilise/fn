@@ -1,4 +1,4 @@
-var is = require('is')
+var is = require('utilise.is')
 
 module.exports = function fn(candid){
   return is.fn(candid) ? candid
